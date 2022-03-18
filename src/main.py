@@ -1,5 +1,5 @@
 from mathematics.arithmetric import Arithmetrics
-import utils
+from utils import utils
 import fire
 
 class CLI(object):
