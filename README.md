@@ -13,7 +13,7 @@ pip3 install -r requirements.txt
 If you are already in the directory you can skip the first line
 ```bash
 cd simple_arithmetrics
-python -m unittest discoveer
+python -m unittest discover
 ```
 
 ### App use
