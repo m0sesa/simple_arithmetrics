@@ -5,7 +5,7 @@
 ```bash
 cd simple_arithmetrics
 python3 -m venv env
-source activate ./env/bin/activate
+source ./env/bin/activate
 pip3 install -r requirements.txt
 ```
 
