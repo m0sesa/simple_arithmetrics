@@ -3,7 +3,7 @@ from utils import utils
 import fire
 
 class CLI(object):
-    """CLI application that demonstrated some simple arithmetric operations"""
+    """CLI application that demonstrated simple arithmetric operations"""
 
     def __init__(self):
         self._cli = Arithmetrics()
@@ -18,7 +18,7 @@ class CLI(object):
         
 
     def subtract(self, a: float, b:float):
-        """Subtract the second number from the first and returns a float"""
+        """Subtracts b from a and returns a float"""
 
         if utils.is_number(a) and utils.is_number(b):
             return self._cli.subtract(a,b)
@@ -26,7 +26,7 @@ class CLI(object):
         return "parameters must be number"
 
     def multiply(self, a: float, b:float):
-        """Multiply two numbers and returns a float"""
+        """Multiplys a with b and returns a float"""
 
         if utils.is_number(a) and utils.is_number(b):
             return self._cli.multiply(a,b)
@@ -34,7 +34,7 @@ class CLI(object):
         return "parameters must be number"
 
     def divide(self, a: float, b:float):
-        """Divide the first number by the second number and returns a float"""
+        """Divides b by a and returns a float"""
         try:
             if utils.is_number(a) and utils.is_number(b):
                 return self._cli.divide(a,b)
