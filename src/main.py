@@ -3,7 +3,7 @@ from utils import utils
 import fire
 
 class CLI(object):
-    """CLI application that demonstrated some simple arithmetric operations"""
+    """CLI application that demonstrated simple arithmetric operations"""
 
     def __init__(self):
         self._cli = Arithmetrics()
